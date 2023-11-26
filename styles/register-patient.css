@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+body,
+button,
+select,
+textarea,
+input {
+     margin: 0;
+     box-sizing: border-box;
+     background: #F6F6F6;
+     font-family: 'Inter', sans-serif;
+     overflow-x: hidden;
+}
+
+nav {
+     display: flex;
+     margin-left: auto;
+     width: 1180px;
+     height: 90px;
+     background: #FFF;
+     align-items: center;
+     padding: 0 130px;
+     position: relative;
+     z-index: 4;
+     padding-left: 431px;
+}
+
+aside {
+     background: #F6F6F6;
+     width: 289px;
+     height: 750px;
+     position: absolute;
+     top: 0;
+     border-right: .1px solid #F0F1F6;
+
+}
+
+input {
+     padding: 18px;
+     width: 400px;
+     border-radius: 8px;
+     border: 1px solid #8146FF;
+     box-shadow: 1px 1px 4px 0px rgba(65, 190, 190, 0.50);
+}
+
+button {
+     width: 177px;
+     height: 44px;
+     border-radius: 8px;
+     color: white !important;
+     background: #8146FF;
+     border: none;
+     align-items: center;
+     gap: 6px;
+     cursor: pointer;
+     outline: none;
+}
+
+.button-register {
+     display: flex;
+     margin: 55px 10px 35px 30px;
+     font-size: 13px;
+}
+
+.button-container {
+     display: flex;
+     justify-content: end;
+}
+
+button>img {
+     padding-left: 10px;
+}
+
+.container>div {
+     margin-bottom: 35px !important;
+}
+
+div>label {
+     margin-top: 30px !important;
+}
+
+.logo-img {
+     width: max-content;
+     margin: 74px -46px 73px -837px;
+}
+
+.title-text {
+     margin-left: 355px;
+}
+
+.container {
+     position: relative;
+     width: 844px;
+     height: 490px;
+     background-color: #FFF;
+     left: 416px;
+     top: 77px;
+     border-radius: 14px;
+     padding: 52px;
+}
+
+
+.first-last-container {
+     display: flex;
+     justify-content: space-between;
+}
+
+a {
+     text-decoration: none;
+     color: white;
+}
+
+.email-input {
+     width: 840px;
+}
+
+label {
+     padding-bottom: 10px;
+}
