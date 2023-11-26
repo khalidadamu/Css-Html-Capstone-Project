@@ -147,6 +147,7 @@ p {
           width: 187px;
           height: 126px;
           margin-top: 80px;
+          margin-bottom: 30px;
      }
      
      
@@ -203,10 +204,10 @@ p {
      
      .conten-flex {
           display: flex;
-          align-items: center;
-          text-align: center;
-          justify-content: space-between;
-          margin: 8px 123px 38px;
+align-items: center;
+     text-align: center;
+     justify-content: space-between;
+margin: 1px 233px 29px 61px;
      }
      
      .circle1 {
@@ -232,12 +233,13 @@ p {
 
      
       .conten-flex > span {
-          margin-right: -328px;
+          margin-right: -277px;
            }
 
           
            .conten-flex > p {
                width: 1px;
+               /* font-size: 14px; */
            }
 
 
@@ -483,3 +485,16 @@ background: #F2F2F2;
                background: #FFF5F5;
                color: #F26E6E;
           }
+.table-container {
+     margin: 20px;
+}
+
+
+.table-img {
+     margin-top: -6px;
+}
+
+.table-flex-img {
+     display: flex;
+     /* justify-content: space-between; */
+}
